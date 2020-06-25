@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+
+#myCanvas{
+    border: 3px solid goldenrod;
+    background-color: lightcoral;
+    margin: auto;
+    display: flex;
+    
+}
