@@ -17,11 +17,11 @@ function drawSprite(){
     ctx.closePath();
 
 
-    if(x + dx > canvas.Width -40){
+    if(x + dx > canvas.width -20){
         dx = -dx;
     }else if(x + dx < 0) {
         dx = -dx;
-    } else if(y + dy > canvas.height -40) {  
+    } else if(y + dy > canvas.height -20) {  
        dy = -dy;
     } else if(y + dy < 0){ 
        dy = -dy; 
